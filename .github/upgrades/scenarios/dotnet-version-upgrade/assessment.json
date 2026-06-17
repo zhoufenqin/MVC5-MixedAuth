@@ -1,0 +1,3898 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-06-17T10:46:08.6716826Z",
+  "analysisEndTime": "2026-06-17T10:46:11.7091012Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 13,
+      "incidents": 161,
+      "effort": 161
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 69,
+        "Optional": 18,
+        "Potential": 74,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 39,
+        "Project": 2,
+        "Feature": 9,
+        "Api": 111
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "MixedAuth.csproj",
+      "startingProject": true,
+      "issues": 12,
+      "storyPoints": 161,
+      "properties": {
+        "appName": "MixedAuth",
+        "projectKind": "Wap",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 61,
+        "numberOfCodeFiles": 33,
+        "linesTotal": 24685,
+        "linesOfCode": 1677,
+        "totalApiScanned": 427,
+        "minLinesOfCodeToChange": 111,
+        "maxLinesOfCodeToChange": 111
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "22b4a3b5-b680-4109-939d-fac540c5e815",
+          "ruleId": "NuGet.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Antlr, 3.4.1.9004\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+              "protected": "Antlr, 3.4.1.9004\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Antlr, 3.4.1.9004\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "protectedSnippet": "Antlr, 3.4.1.9004\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "label": "Antlr 3.4.1.9004",
+            "properties": {
+              "PackageId": "Antlr",
+              "PackageVersion": "3.4.1.9004",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Antlr4=4.6.6"
+            }
+          }
+        },
+        {
+          "incidentId": "e8b87a61-c0f8-4b5e-a8c0-13234159a16e",
+          "ruleId": "NuGet.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.0.0\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+              "protected": "EntityFramework, 6.0.0\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "EntityFramework, 6.0.0\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.0.0\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "label": "EntityFramework 6.0.0",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.0.0",
+              "PackageNewVersion": "6.5.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "18e14e22-b284-4840-bb1b-0464e33ebf9c",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Identity.Core, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Identity.Core, 1.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Identity.Core, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Identity.Core, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Identity.Core 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Identity.Core",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d1279c45-c106-4f1f-b7ef-f87ed1677d21",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Identity.EntityFramework, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Identity.EntityFramework, 1.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Identity.EntityFramework, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Identity.EntityFramework, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Identity.EntityFramework 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Identity.EntityFramework",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "84f6b53c-bc81-46e3-985d-945583807fc3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Identity.Owin 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Identity.Owin",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "33db4ca1-6705-4549-9237-09ca70b6b2b9",
+          "ruleId": "NuGet.0003",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Mvc, 5.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Mvc 5.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c956781e-a7c4-4c07-a6fc-189c28c01074",
+          "ruleId": "NuGet.0003",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Razor, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Razor 3.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0f4dddd5-ab5d-44a3-a806-6c7ee8a57f20",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.1",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3b68e196-f0e8-4146-a169-a03cc6d1cca2",
+          "ruleId": "NuGet.0003",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.WebPages, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.WebPages 3.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e5a0c5a9-1da6-421d-ab70-72f6d89c11ed",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4853bb88-856c-4e5d-a96b-d5a65e968c06",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Host.SystemWeb 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Host.SystemWeb",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "cc4966e6-68ff-43c0-8d2d-7fa328813770",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3795c78c-93a9-4077-965d-839347447bb8",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.Cookies 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Cookies",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "cfe3aa21-3dee-451b-b119-fc95ea099709",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.Facebook 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Facebook",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6ea6cb4a-c450-4633-a7c9-1362e1d972da",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.Google 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Google",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "205fb329-3507-4210-a3c3-b3c236f5b698",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.MicrosoftAccount 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.MicrosoftAccount",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "917267a5-4128-4245-8254-09b218803014",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.OAuth 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.OAuth",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1f5618fe-28f5-4829-9a7a-a8bc61626579",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.Twitter 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Twitter",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "42ff4ba3-62d7-4c62-b09a-2f3733625101",
+          "ruleId": "NuGet.0003",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "715a9b74-9456-4607-ac12-fbcfe222acdb",
+          "ruleId": "NuGet.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 5.0.6",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "5.0.6",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "fb09857f-40d8-4272-9da0-a14186ba080b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Owin, 1.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Owin, 1.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Owin, 1.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Owin, 1.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Owin 1.0",
+            "properties": {
+              "PackageId": "Owin",
+              "PackageVersion": "1.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7bf95469-4cd5-4a9e-9cf6-ee07664e9a0e",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bootstrap, 3.0.0\n\nRecommendation:\n\nbootstrap, 5.3.8",
+              "protected": "bootstrap, 3.0.0\n\nRecommendation:\n\nbootstrap, 5.3.8"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "bootstrap, 3.0.0\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "protectedSnippet": "bootstrap, 3.0.0\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "label": "bootstrap 3.0.0",
+            "properties": {
+              "PackageId": "bootstrap",
+              "PackageVersion": "3.0.0",
+              "PackageNewVersion": "5.3.8",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b4aac715-4900-4f4d-bef8-0f0ec01bb92a",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.0.0\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+              "protected": "EntityFramework, 6.0.0\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "EntityFramework, 6.0.0\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.0.0\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "label": "EntityFramework 6.0.0",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "57d6feb6-dd77-46cf-93b5-e2f62e7ba547",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery, 1.10.2\n\nRecommendation:\n\njQuery, 3.7.1",
+              "protected": "jQuery, 1.10.2\n\nRecommendation:\n\njQuery, 3.7.1"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "jQuery, 1.10.2\n\nRecommendation:\n\njQuery, 3.7.1",
+            "protectedSnippet": "jQuery, 1.10.2\n\nRecommendation:\n\njQuery, 3.7.1",
+            "label": "jQuery 1.10.2",
+            "properties": {
+              "PackageId": "jQuery",
+              "PackageVersion": "1.10.2",
+              "PackageNewVersion": "3.7.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f0764cca-e82b-42de-bfa1-8693d87bf6e4",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery.Validation, 1.11.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+              "protected": "jQuery.Validation, 1.11.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "jQuery.Validation, 1.11.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+            "protectedSnippet": "jQuery.Validation, 1.11.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+            "label": "jQuery.Validation 1.11.1",
+            "properties": {
+              "PackageId": "jQuery.Validation",
+              "PackageVersion": "1.11.1",
+              "PackageNewVersion": "1.21.0",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d0deed29-7a1f-4e66-8f48-95421c08e6b4",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Identity.Owin, 1.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Identity.Owin 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Identity.Owin",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7be48392-daa1-43f4-baa9-360b1b8165c4",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.1\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.1",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "66787174-f7b6-45c5-85d9-9524a97887fd",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "55562a78-aaf4-4d87-9f13-6bd3eb93c92b",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0b755a12-ae81-497f-afef-e9eb606536d0",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Host.SystemWeb, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Host.SystemWeb 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Host.SystemWeb",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3e79ea3e-c094-4801-9c62-3c38287cbc0a",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Security, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Security 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "5bce5993-0414-4baa-8d55-9ec66f87e4d3",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Owin.Security.Cookies 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Cookies",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "600dd287-0db0-46fd-b691-17eb55a1d5e0",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use AddAuthentication().AddCookie() in Startup; adjust cookie options\nRemove Microsoft.Owin.Security.Cookies, and replace with new package Microsoft.AspNetCore.Authentication.Cookies, 2.3.11",
+              "protected": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use AddAuthentication().AddCookie() in Startup; adjust cookie options\nRemove Microsoft.Owin.Security.Cookies, and replace with new package Microsoft.AspNetCore.Authentication.Cookies, 2.3.11"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use AddAuthentication().AddCookie() in Startup; adjust cookie options\nRemove Microsoft.Owin.Security.Cookies, and replace with new package Microsoft.AspNetCore.Authentication.Cookies, 2.3.11",
+            "protectedSnippet": "Microsoft.Owin.Security.Cookies, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use AddAuthentication().AddCookie() in Startup; adjust cookie options\nRemove Microsoft.Owin.Security.Cookies, and replace with new package Microsoft.AspNetCore.Authentication.Cookies, 2.3.11",
+            "label": "Microsoft.Owin.Security.Cookies 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Cookies",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Microsoft.AspNetCore.Authentication.Cookies=2.3.11"
+            }
+          }
+        },
+        {
+          "incidentId": "48307b12-9613-4310-ad7f-e34bea0297d5",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Security.Facebook, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Security.Facebook 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Facebook",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c1add58b-067e-4d4f-bb7a-b73c7d848fe4",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Security.Google, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Security.Google 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Google",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f95dc42e-8332-4263-bc91-9214c80a4932",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Security.MicrosoftAccount, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Security.MicrosoftAccount 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.MicrosoftAccount",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "cb9b5173-d1e6-4d5d-9b77-ff2ba1f5433a",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens\nRemove Microsoft.Owin.Security.OAuth, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer, 10.0.9",
+              "protected": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens\nRemove Microsoft.Owin.Security.OAuth, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer, 10.0.9"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens\nRemove Microsoft.Owin.Security.OAuth, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer, 10.0.9",
+            "protectedSnippet": "Microsoft.Owin.Security.OAuth, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217 Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens\nRemove Microsoft.Owin.Security.OAuth, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer, 10.0.9",
+            "label": "Microsoft.Owin.Security.OAuth 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.OAuth",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Microsoft.AspNetCore.Authentication.JwtBearer=10.0.9"
+            }
+          }
+        },
+        {
+          "incidentId": "96601b92-ccf8-473d-8c97-92050542f1aa",
+          "ruleId": "NuGet.0005",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Owin.Security.Twitter, 2.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Owin.Security.Twitter 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Owin.Security.Twitter",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c072a0cc-4561-4eaa-ba9c-066bd7c21a30",
+          "ruleId": "NuGet.0004",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+              "protected": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 5.0.6\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "label": "Newtonsoft.Json 5.0.6",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "5.0.6",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "08a11aca-6f62-4d60-b072-ae83e54e6e7b",
+          "ruleId": "Project.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "MixedAuth.csproj"
+          }
+        },
+        {
+          "incidentId": "3952b106-0426-421b-8962-a927f6170c4c",
+          "ruleId": "Project.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "MixedAuth.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "763f66cd-a5be-4fc8-9a7e-926a8e8dafb9",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Account\\ExternalLoginConfirmation.cshtml"
+          }
+        },
+        {
+          "incidentId": "2347cc5c-1867-4b54-a881-a6924cfddf06",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Account\\Login.cshtml"
+          }
+        },
+        {
+          "incidentId": "99653f0c-d085-490b-b8e2-1d86797b791f",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Account\\Manage.cshtml"
+          }
+        },
+        {
+          "incidentId": "d8308d24-f1bf-46bf-9284-fe20b8ee6263",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Account\\Register.cshtml"
+          }
+        },
+        {
+          "incidentId": "030ef033-0155-4ccf-9fc5-e3c1e4e84d23",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Account\\WindowsLoginConfirmation.cshtml"
+          }
+        },
+        {
+          "incidentId": "943f4c65-0313-43f8-9c7d-1bfa708400ca",
+          "ruleId": "Feature.0001",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Views\\Shared\\_Layout.cshtml"
+          }
+        },
+        {
+          "incidentId": "663317a1-af15-486d-afa8-4ead3e11e91a",
+          "ruleId": "Feature.1000",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Global.asax.cs"
+          }
+        },
+        {
+          "incidentId": "dbd8f904-7adf-4082-80c7-64820659e7cc",
+          "ruleId": "Feature.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Global.asax.cs"
+          }
+        },
+        {
+          "incidentId": "a08cdc9b-8407-455e-b0fb-c3f02912572b",
+          "ruleId": "Feature.0002",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "App_Start\\RouteConfig.cs"
+          }
+        },
+        {
+          "incidentId": "356f531e-f78f-47dc-882c-9a419b9fbeff",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpContext.Items.Remove(\u0022windows.userId\u0022);",
+              "protected": "P:System.Web.HttpContext.Items"
+            },
+            "kind": "File",
+            "path": "Controllers\\AccountController.Windows.cs",
+            "snippet": "HttpContext.Items.Remove(\u0022windows.userId\u0022);",
+            "protectedSnippet": "P:System.Web.HttpContext.Items",
+            "label": "P:System.Web.HttpContext.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 91,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "e78201b2-3a67-4b83-9b41-4b9c0053257b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private async Task ExecuteController(HttpContext context, RouteData routeData)",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "private async Task ExecuteController(HttpContext context, RouteData routeData)",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 112,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "3adbee1f-07a1-457f-b99f-5b1fac4488d8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private async Task ExecuteController(HttpContext context, RouteData routeData)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "private async Task ExecuteController(HttpContext context, RouteData routeData)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 112,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "c15684bd-31ae-470f-b71d-bb39151cd9ff",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MvcHandler handler = new MvcHandler(new RequestContext(wrapper, routeData));",
+              "protected": "T:System.Web.Routing.RequestContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "MvcHandler handler = new MvcHandler(new RequestContext(wrapper, routeData));",
+            "protectedSnippet": "T:System.Web.Routing.RequestContext",
+            "label": "T:System.Web.Routing.RequestContext",
+            "line": 115,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8b0cc127-af99-443e-ab5e-e28b8e13d612",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MvcHandler handler = new MvcHandler(new RequestContext(wrapper, routeData));",
+              "protected": "M:System.Web.Routing.RequestContext.#ctor(System.Web.HttpContextBase,System.Web.Routing.RouteData)"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "MvcHandler handler = new MvcHandler(new RequestContext(wrapper, routeData));",
+            "protectedSnippet": "M:System.Web.Routing.RequestContext.#ctor(System.Web.HttpContextBase,System.Web.Routing.RouteData)",
+            "label": "M:System.Web.Routing.RequestContext.#ctor(System.Web.HttpContextBase,System.Web.Routing.RouteData)",
+            "line": 115,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "907a85b2-9c1a-4990-8c29-bc38000cd5d7",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var wrapper = new HttpContextWrapper(context);",
+              "protected": "T:System.Web.HttpContextWrapper"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "var wrapper = new HttpContextWrapper(context);",
+            "protectedSnippet": "T:System.Web.HttpContextWrapper",
+            "label": "T:System.Web.HttpContextWrapper",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 114,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "f6b9870f-e22f-417e-88ec-092ec449dfb2",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var wrapper = new HttpContextWrapper(context);",
+              "protected": "M:System.Web.HttpContextWrapper.#ctor(System.Web.HttpContext)"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "var wrapper = new HttpContextWrapper(context);",
+            "protectedSnippet": "M:System.Web.HttpContextWrapper.#ctor(System.Web.HttpContext)",
+            "label": "M:System.Web.HttpContextWrapper.#ctor(System.Web.HttpContext)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 114,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "9335cf73-0818-427d-896c-9488dc3f8bf8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private async Task WinLogoffAsync(HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "private async Task WinLogoffAsync(HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 99,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "32d90c98-1d9d-4227-883c-16bcd86eefae",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var routeData = this.CreateRouteData(Action.Logoff);",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "var routeData = this.CreateRouteData(Action.Logoff);",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "f1d30057-3747-4df8-95ad-3917b098538a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private async Task WinLinkLoginAsync(HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "private async Task WinLinkLoginAsync(HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 87,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "18f98149-a4bb-4ad0-90e7-21be78f86f72",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var routeData = this.CreateRouteData(Action.Link);",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "var routeData = this.CreateRouteData(Action.Link);",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 89,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "cfe326bc-1627-4a79-995b-c374bc8becf3",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private async Task WinLoginAsync(HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "private async Task WinLoginAsync(HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 72,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "5379c5b0-aec2-44b1-9a29-e8ac815204b4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "T:System.Web.HttpRequest"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "T:System.Web.HttpRequest",
+            "label": "T:System.Web.HttpRequest",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "2f78cbae-baf3-4de4-8b98-356ba33e21e4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "P:System.Web.HttpContext.Request"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "P:System.Web.HttpContext.Request",
+            "label": "P:System.Web.HttpContext.Request",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "e9af2c24-b6b8-43f4-9895-e3c3ea418f04",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "P:System.Web.HttpRequest.Form"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "P:System.Web.HttpRequest.Form",
+            "label": "P:System.Web.HttpRequest.Form",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "28c90d9a-e9ef-4938-92c5-fa8caad7418f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "880b5df4-fe08-4838-96f6-5e2d4b4dbfd5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "a1d6c677-aa09-4eff-986d-0f369c0e3b11",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022userName\u0022, context.Request.Form[\u0022UserName\u0022]);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 77,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "021865ce-071c-4596-96dd-3b63479a287f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "T:System.Web.HttpRequest"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "T:System.Web.HttpRequest",
+            "label": "T:System.Web.HttpRequest",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "6592ee07-b9c4-4362-8bac-5fcabb33973f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "P:System.Web.HttpContext.Request"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "P:System.Web.HttpContext.Request",
+            "label": "P:System.Web.HttpContext.Request",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8bf6389b-ae20-48c6-8a9b-256aa9f3fbcf",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "P:System.Web.HttpRequest.Item(System.String)"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "P:System.Web.HttpRequest.Item(System.String)",
+            "label": "P:System.Web.HttpRequest.Item(System.String)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "9c73fd10-5f4e-4fc7-a6e3-7ea8ac56aff9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "4703e5f1-4b36-4af6-a3b5-9c86b676fa50",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "7808d475-9a8a-4185-b113-ae41077ef67e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "routeData.Values.Add(\u0022returnUrl\u0022, context.Request[\u0022returnUrl\u0022]);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 76,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "27a33597-ad04-4f92-a768-b7f9e655a0d1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var routeData = this.CreateRouteData(Action.Login);",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "var routeData = this.CreateRouteData(Action.Login);",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 74,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "6374672d-b6c0-46bc-9d9c-2fd9c1b6134f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public override async Task ProcessRequestAsync(HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "public override async Task ProcessRequestAsync(HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 29,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "53d9d224-9364-406d-a09f-f5f9d921206a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+              "protected": "T:System.Web.HttpRequest"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+            "protectedSnippet": "T:System.Web.HttpRequest",
+            "label": "T:System.Web.HttpRequest",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 48,
+            "column": 11
+          }
+        },
+        {
+          "incidentId": "b6826570-ba3f-4da3-87c8-cd1eae96cb11",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+              "protected": "P:System.Web.HttpContext.Request"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+            "protectedSnippet": "P:System.Web.HttpContext.Request",
+            "label": "P:System.Web.HttpContext.Request",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 48,
+            "column": 11
+          }
+        },
+        {
+          "incidentId": "1a90f960-38d7-4dd4-9f97-8fc69cfa97ea",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+              "protected": "P:System.Web.HttpRequest.LogonUserIdentity"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+            "protectedSnippet": "P:System.Web.HttpRequest.LogonUserIdentity",
+            "label": "P:System.Web.HttpRequest.LogonUserIdentity",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 48,
+            "column": 11
+          }
+        },
+        {
+          "incidentId": "bbf228e5-47f2-4000-b44b-5a554fa83762",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.SaveUserIdToSession(context.User.Identity.GetUserId());",
+              "protected": "P:System.Web.HttpContext.User"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "this.SaveUserIdToSession(context.User.Identity.GetUserId());",
+            "protectedSnippet": "P:System.Web.HttpContext.User",
+            "label": "P:System.Web.HttpContext.User",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 42,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "0de24d30-b1d7-436c-9d7d-78b4b1cf4e39",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (context.User.Identity.IsAuthenticated)\r\n      {\r\n        this.SaveUserIdToSession(context.User.Identity.GetUserId());\r\n\r\n        await WinLogoffAsync(context);\r\n\r\n        context.RequestChallenge();\r\n      }\r\n      else if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+              "protected": "P:System.Web.HttpContext.User"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "if (context.User.Identity.IsAuthenticated)\r\n      {\r\n        this.SaveUserIdToSession(context.User.Identity.GetUserId());\r\n\r\n        await WinLogoffAsync(context);\r\n\r\n        context.RequestChallenge();\r\n      }\r\n      else if (!context.Request.LogonUserIdentity.IsAuthenticated)\r\n      {\r\n        context.RequestChallenge();\r\n      }\r\n      else\r\n      {\r\n        // true: user is trying to link windows login to an existing account\r\n        if (this.SessionHasUserId())\r\n        {\r\n          var userId = this.ReadUserIdFromSession();\r\n          this.SaveUserIdToContext(userId);\r\n          await WinLinkLoginAsync(context);\r\n        }\r\n        else // normal login.\r\n          await WinLoginAsync(context);\r\n      }",
+            "protectedSnippet": "P:System.Web.HttpContext.User",
+            "label": "P:System.Web.HttpContext.User",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 40,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "d5035a27-61de-46b3-9b7c-b305680cfef1",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.Context = context;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "this.Context = context;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 31,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "634b9bb7-0228-460f-a3eb-c773e86f3865",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "set;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "set;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 28,
+            "column": 38
+          }
+        },
+        {
+          "incidentId": "f8b74bd7-8fd3-4e1a-babf-6c5e2d63660c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "get;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "get;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 28,
+            "column": 33
+          }
+        },
+        {
+          "incidentId": "09e4ccd6-2d31-45ba-9a1a-94357df1313a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public HttpContext Context",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "public HttpContext Context",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 28,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "5ce15c4b-b7a5-45bc-a7e5-bc10e1fce3d5",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpTaskAsyncHandler",
+              "protected": "M:System.Web.HttpTaskAsyncHandler.#ctor"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "HttpTaskAsyncHandler",
+            "protectedSnippet": "M:System.Web.HttpTaskAsyncHandler.#ctor",
+            "label": "M:System.Web.HttpTaskAsyncHandler.#ctor",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 26,
+            "column": 37
+          }
+        },
+        {
+          "incidentId": "e50deeb0-36e3-4659-af59-c598ef336fb9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "IRequiresSessionState",
+              "protected": "T:System.Web.SessionState.IRequiresSessionState"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "IRequiresSessionState",
+            "protectedSnippet": "T:System.Web.SessionState.IRequiresSessionState",
+            "label": "T:System.Web.SessionState.IRequiresSessionState",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 26,
+            "column": 83
+          }
+        },
+        {
+          "incidentId": "3d04db70-6fa2-4506-8cd3-e1bd19674243",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpTaskAsyncHandler",
+              "protected": "T:System.Web.HttpTaskAsyncHandler"
+            },
+            "kind": "File",
+            "path": "Windows\\WindowsLoginHandler.cs",
+            "snippet": "HttpTaskAsyncHandler",
+            "protectedSnippet": "T:System.Web.HttpTaskAsyncHandler",
+            "label": "T:System.Web.HttpTaskAsyncHandler",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 26,
+            "column": 37
+          }
+        },
+        {
+          "incidentId": "b7fa6621-b644-416e-8153-cd9083b9e0f8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session.Remove(userIdKey);",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session.Remove(userIdKey);",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 169,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "d5c4bc35-d5ca-460f-9c5e-4110072c2f75",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session.Remove(userIdKey);",
+              "protected": "T:System.Web.SessionState.HttpSessionState"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session.Remove(userIdKey);",
+            "protectedSnippet": "T:System.Web.SessionState.HttpSessionState",
+            "label": "T:System.Web.SessionState.HttpSessionState",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 169,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "de0db678-ad8d-4076-b171-591fc91ab451",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session.Remove(userIdKey);",
+              "protected": "P:System.Web.HttpContext.Session"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session.Remove(userIdKey);",
+            "protectedSnippet": "P:System.Web.HttpContext.Session",
+            "label": "P:System.Web.HttpContext.Session",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 169,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "12cfdabf-9be0-4190-8dfc-15ade55320fb",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session.Remove(userIdKey);",
+              "protected": "M:System.Web.SessionState.HttpSessionState.Remove(System.String)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session.Remove(userIdKey);",
+            "protectedSnippet": "M:System.Web.SessionState.HttpSessionState.Remove(System.String)",
+            "label": "M:System.Web.SessionState.HttpSessionState.Remove(System.String)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 169,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "080c523d-f6cc-4434-b81d-1e8357aa6120",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string userId = handler.Context.Session[userIdKey] as string;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "string userId = handler.Context.Session[userIdKey] as string;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 164,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "3e189bdd-ff33-43af-b23e-38d1753bfa49",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string userId = handler.Context.Session[userIdKey] as string;",
+              "protected": "T:System.Web.SessionState.HttpSessionState"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "string userId = handler.Context.Session[userIdKey] as string;",
+            "protectedSnippet": "T:System.Web.SessionState.HttpSessionState",
+            "label": "T:System.Web.SessionState.HttpSessionState",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 164,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "69a852ec-3491-4e53-89ea-8e3c6c63866e",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string userId = handler.Context.Session[userIdKey] as string;",
+              "protected": "P:System.Web.HttpContext.Session"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "string userId = handler.Context.Session[userIdKey] as string;",
+            "protectedSnippet": "P:System.Web.HttpContext.Session",
+            "label": "P:System.Web.HttpContext.Session",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 164,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "a0c5395a-312c-4b02-9f50-d7119a48a041",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string userId = handler.Context.Session[userIdKey] as string;",
+              "protected": "P:System.Web.SessionState.HttpSessionState.Item(System.String)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "string userId = handler.Context.Session[userIdKey] as string;",
+            "protectedSnippet": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "label": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 164,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "2a3e0191-81ea-4329-9c9d-6de677477e7b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session[userIdKey] = userId;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session[userIdKey] = userId;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 153,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "aa3b4ccd-ea00-44cf-9600-1b53e9424a2f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session[userIdKey] = userId;",
+              "protected": "T:System.Web.SessionState.HttpSessionState"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session[userIdKey] = userId;",
+            "protectedSnippet": "T:System.Web.SessionState.HttpSessionState",
+            "label": "T:System.Web.SessionState.HttpSessionState",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 153,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "4883403e-c793-4743-b40f-b7b2af4f6d14",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session[userIdKey] = userId;",
+              "protected": "P:System.Web.HttpContext.Session"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session[userIdKey] = userId;",
+            "protectedSnippet": "P:System.Web.HttpContext.Session",
+            "label": "P:System.Web.HttpContext.Session",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 153,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8e663616-8f11-46fb-8162-b62598564d41",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Session[userIdKey] = userId;",
+              "protected": "P:System.Web.SessionState.HttpSessionState.Item(System.String)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Session[userIdKey] = userId;",
+            "protectedSnippet": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "label": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 153,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "f65a0881-0ea6-4f7b-b169-a948084aa0d4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return handler.Context.Session[userIdKey] != null;",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "return handler.Context.Session[userIdKey] != null;",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 142,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "6d2da309-602d-411b-9f93-4dc6edfd4d2c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return handler.Context.Session[userIdKey] != null;",
+              "protected": "T:System.Web.SessionState.HttpSessionState"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "return handler.Context.Session[userIdKey] != null;",
+            "protectedSnippet": "T:System.Web.SessionState.HttpSessionState",
+            "label": "T:System.Web.SessionState.HttpSessionState",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 142,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "05787212-125d-4c12-9f0b-bfd67b6e7d76",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return handler.Context.Session[userIdKey] != null;",
+              "protected": "P:System.Web.HttpContext.Session"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "return handler.Context.Session[userIdKey] != null;",
+            "protectedSnippet": "P:System.Web.HttpContext.Session",
+            "label": "P:System.Web.HttpContext.Session",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 142,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "3328de0a-222b-4088-b169-132c876b45f2",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return handler.Context.Session[userIdKey] != null;",
+              "protected": "P:System.Web.SessionState.HttpSessionState.Item(System.String)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "return handler.Context.Session[userIdKey] != null;",
+            "protectedSnippet": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "label": "P:System.Web.SessionState.HttpSessionState.Item(System.String)",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 142,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "c00ded91-dcab-48ac-88ff-d226819378df",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static string ReadUserId(this HttpContextBase context)",
+              "protected": "T:System.Web.HttpContextBase"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "public static string ReadUserId(this HttpContextBase context)",
+            "protectedSnippet": "T:System.Web.HttpContextBase",
+            "label": "T:System.Web.HttpContextBase",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 126,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "09d9de13-7a4e-421f-b0b4-7a27fb4b23e9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Items.Remove(userIdKey);",
+              "protected": "P:System.Web.HttpContextBase.Items"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Items.Remove(userIdKey);",
+            "protectedSnippet": "P:System.Web.HttpContextBase.Items",
+            "label": "P:System.Web.HttpContextBase.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 132,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "e5554f06-7a18-413e-a066-82cdeea98212",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string userId = context.Items[userIdKey] as string;",
+              "protected": "P:System.Web.HttpContextBase.Items"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "string userId = context.Items[userIdKey] as string;",
+            "protectedSnippet": "P:System.Web.HttpContextBase.Items",
+            "label": "P:System.Web.HttpContextBase.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 131,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "fe4cc1fd-951b-4426-aeaf-8fa4175b07b9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (!context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id not found in context.\u0022);",
+              "protected": "P:System.Web.HttpContextBase.Items"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (!context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id not found in context.\u0022);",
+            "protectedSnippet": "P:System.Web.HttpContextBase.Items",
+            "label": "P:System.Web.HttpContextBase.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 128,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "9d209c2c-61b5-4b6a-b6b4-c66c04f7fddb",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Items.Add(\u0022windows.userId\u0022, userId);",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Items.Add(\u0022windows.userId\u0022, userId);",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 117,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "c82f040c-4145-45b1-a350-c1965886269d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "handler.Context.Items.Add(\u0022windows.userId\u0022, userId);",
+              "protected": "P:System.Web.HttpContext.Items"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "handler.Context.Items.Add(\u0022windows.userId\u0022, userId);",
+            "protectedSnippet": "P:System.Web.HttpContext.Items",
+            "label": "P:System.Web.HttpContext.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 117,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "366bf71d-c206-4a2c-8cf2-6039047f1c38",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (handler.Context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id already exists in context.\u0022);",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (handler.Context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id already exists in context.\u0022);",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 114,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "bfd7b999-957f-4b11-9547-65a3d1d48467",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (handler.Context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id already exists in context.\u0022);",
+              "protected": "P:System.Web.HttpContext.Items"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (handler.Context.Items.Contains(userIdKey))\r\n        throw new ApplicationException(\u0022Id already exists in context.\u0022);",
+            "protectedSnippet": "P:System.Web.HttpContext.Items",
+            "label": "P:System.Web.HttpContext.Items",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 114,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "19d4d1b5-7bb2-4ca3-a07c-d34408d58fbe",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static RouteData CreateRouteData(this WindowsLoginHandler handler, Action action)",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "public static RouteData CreateRouteData(this WindowsLoginHandler handler, Action action)",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 83,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "7cb2d732-bc00-4e5a-b280-5dee79cd3885",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 100,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "43052359-98eb-4f8e-ab15-7dd4214777a2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 100,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "275de1f4-6b49-48f3-86bd-8cc4fa554d64",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, logoffActionName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 100,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "1d070141-ac87-4673-93d2-6229a7afef00",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 99,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "3d97afdc-5275-4064-b87e-ef466d055c4a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 99,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "e4789e36-36be-4aee-b329-927561e9a981",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 99,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "4847ffbe-8975-4713-a154-17f00b13e690",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 96,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "746f9340-5869-46a1-acde-1e7d57a031f1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 96,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "91d73f83-5fc9-4ade-89ed-799e1bdb5527",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, linkActionName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 96,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "67e5d1a6-43da-4976-bb46-526814fcfb9f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 95,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "01f7f209-82bd-4e3b-8138-a9533e154220",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 95,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "763afe84-4e4b-44ea-acc1-f1fdbfe05ea9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 95,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "63987498-ef56-4a37-8ff9-1623e28a734c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 92,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "f77ba2dc-9191-485a-b956-55871241da20",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 92,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "10c476ac-e5b2-4004-899f-3601ec8546ae",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022action\u0022, loginActionName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 92,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "50c6c98c-e30b-4de0-a8b7-1df1d4b4f7a4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "T:System.Web.Routing.RouteValueDictionary"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "T:System.Web.Routing.RouteValueDictionary",
+            "label": "T:System.Web.Routing.RouteValueDictionary",
+            "line": 91,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "690b85bd-93dd-4b84-99e3-a0874beaac82",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "P:System.Web.Routing.RouteData.Values"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.Values",
+            "label": "P:System.Web.Routing.RouteData.Values",
+            "line": 91,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "4c66de8a-a781-4588-bf5d-5268ba7f1960",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+              "protected": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.Values.Add(\u0022controller\u0022, controllerName);",
+            "protectedSnippet": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "label": "M:System.Web.Routing.RouteValueDictionary.Add(System.String,System.Object)",
+            "line": 91,
+            "column": 10
+          }
+        },
+        {
+          "incidentId": "6f6685e0-8c0b-4a29-a163-f05771198ab8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.RouteHandler = new MvcRouteHandler();",
+              "protected": "T:System.Web.Routing.IRouteHandler"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.RouteHandler = new MvcRouteHandler();",
+            "protectedSnippet": "T:System.Web.Routing.IRouteHandler",
+            "label": "T:System.Web.Routing.IRouteHandler",
+            "line": 86,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "a9421676-58ab-4000-afcd-02d34fb77991",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "routeData.RouteHandler = new MvcRouteHandler();",
+              "protected": "P:System.Web.Routing.RouteData.RouteHandler"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "routeData.RouteHandler = new MvcRouteHandler();",
+            "protectedSnippet": "P:System.Web.Routing.RouteData.RouteHandler",
+            "label": "P:System.Web.Routing.RouteData.RouteHandler",
+            "line": 86,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "373ce305-7561-4d32-aa2b-4214264d0e2b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteData routeData = new RouteData();",
+              "protected": "T:System.Web.Routing.RouteData"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "RouteData routeData = new RouteData();",
+            "protectedSnippet": "T:System.Web.Routing.RouteData",
+            "label": "T:System.Web.Routing.RouteData",
+            "line": 85,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "cc70dd9b-1afd-415c-83be-cbfb59be1e38",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteData routeData = new RouteData();",
+              "protected": "M:System.Web.Routing.RouteData.#ctor"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "RouteData routeData = new RouteData();",
+            "protectedSnippet": "M:System.Web.Routing.RouteData.#ctor",
+            "label": "M:System.Web.Routing.RouteData.#ctor",
+            "line": 85,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "d56c0df0-fb1e-497a-b533-c65dd9e35d25",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void ApplyChallenge(this HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "public static void ApplyChallenge(this HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 65,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "0005adb9-8497-4cd2-9c64-4796984c413a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.SubStatusCode = 2;",
+              "protected": "T:System.Web.HttpResponse"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.SubStatusCode = 2;",
+            "protectedSnippet": "T:System.Web.HttpResponse",
+            "label": "T:System.Web.HttpResponse",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 70,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "beb36e4e-d12b-4711-a8b6-adc953ab97a6",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.SubStatusCode = 2;",
+              "protected": "P:System.Web.HttpContext.Response"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.SubStatusCode = 2;",
+            "protectedSnippet": "P:System.Web.HttpContext.Response",
+            "label": "P:System.Web.HttpContext.Response",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 70,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "54a1496f-0b49-4f66-8398-d8fadb4ebb08",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.SubStatusCode = 2;",
+              "protected": "P:System.Web.HttpResponse.SubStatusCode"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.SubStatusCode = 2;",
+            "protectedSnippet": "P:System.Web.HttpResponse.SubStatusCode",
+            "label": "P:System.Web.HttpResponse.SubStatusCode",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 70,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d4e4ab41-a49e-43a9-b788-181c0e47f51c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = 401;",
+              "protected": "T:System.Web.HttpResponse"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = 401;",
+            "protectedSnippet": "T:System.Web.HttpResponse",
+            "label": "T:System.Web.HttpResponse",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 69,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "4be761c2-25a7-42cd-adde-14ed32e9c763",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = 401;",
+              "protected": "P:System.Web.HttpContext.Response"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = 401;",
+            "protectedSnippet": "P:System.Web.HttpContext.Response",
+            "label": "P:System.Web.HttpContext.Response",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 69,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "5f9b2120-f0f1-455a-a9a4-923df8f0ab1b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = 401;",
+              "protected": "P:System.Web.HttpResponse.StatusCode"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = 401;",
+            "protectedSnippet": "P:System.Web.HttpResponse.StatusCode",
+            "label": "P:System.Web.HttpResponse.StatusCode",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 69,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "1ee3d038-0e01-481c-a6e0-4f6d730a7251",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+              "protected": "T:System.Web.HttpResponse"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+            "protectedSnippet": "T:System.Web.HttpResponse",
+            "label": "T:System.Web.HttpResponse",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 67,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "041274e4-6ffc-40d5-b06f-1cd1bddbc3ab",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+              "protected": "P:System.Web.HttpContext.Response"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+            "protectedSnippet": "P:System.Web.HttpContext.Response",
+            "label": "P:System.Web.HttpContext.Response",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 67,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "1c3a0ebb-b845-4ab8-af4a-91a42a2cdb18",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+              "protected": "P:System.Web.HttpResponse.StatusCode"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "if (context.Response.StatusCode == fakeStatusCode)\r\n      {\r\n        context.Response.StatusCode = 401;\r\n        context.Response.SubStatusCode = 2;\r\n\r\n        //http://msdn.microsoft.com/en-us/library/system.web.httpresponse.tryskipiiscustomerrors(v=vs.110).aspx\r\n        //context.Response.TrySkipIisCustomErrors = true;\r\n      }",
+            "protectedSnippet": "P:System.Web.HttpResponse.StatusCode",
+            "label": "P:System.Web.HttpResponse.StatusCode",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 67,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "a3f5a9f3-3f04-4dd7-86d4-0af389eabbd7",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void RequestChallenge(this HttpContext context)",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "public static void RequestChallenge(this HttpContext context)",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 56,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "2c318eb3-fc85-4d99-9cca-23913f0d126c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = fakeStatusCode;",
+              "protected": "T:System.Web.HttpResponse"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = fakeStatusCode;",
+            "protectedSnippet": "T:System.Web.HttpResponse",
+            "label": "T:System.Web.HttpResponse",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 58,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "48d8b76e-bf52-488d-ad7e-7b791a9b30a9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = fakeStatusCode;",
+              "protected": "P:System.Web.HttpContext.Response"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = fakeStatusCode;",
+            "protectedSnippet": "P:System.Web.HttpContext.Response",
+            "label": "P:System.Web.HttpContext.Response",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 58,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "2a2152db-0a49-48ca-b077-a88036bc052d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "context.Response.StatusCode = fakeStatusCode;",
+              "protected": "P:System.Web.HttpResponse.StatusCode"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "context.Response.StatusCode = fakeStatusCode;",
+            "protectedSnippet": "P:System.Web.HttpResponse.StatusCode",
+            "label": "P:System.Web.HttpResponse.StatusCode",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 58,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "b856cbc7-8953-4df3-a1c5-eb2d8d22ed7d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void IgnoreWindowsLoginRoute(this RouteCollection routes)",
+              "protected": "T:System.Web.Routing.RouteCollection"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "public static void IgnoreWindowsLoginRoute(this RouteCollection routes)",
+            "protectedSnippet": "T:System.Web.Routing.RouteCollection",
+            "label": "T:System.Web.Routing.RouteCollection",
+            "line": 47,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "0e276fce-cd44-4bf8-b72e-f82129c46b96",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpContext.Current.ApplyChallenge();",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "HttpContext.Current.ApplyChallenge();",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b833a6b7-7adb-493e-8205-9dad743f00be",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpContext.Current.ApplyChallenge();",
+              "protected": "T:System.Web.HttpContext"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "HttpContext.Current.ApplyChallenge();",
+            "protectedSnippet": "T:System.Web.HttpContext",
+            "label": "T:System.Web.HttpContext",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "1662fb42-056b-4db6-8609-29003a9bacec",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpContext.Current.ApplyChallenge();",
+              "protected": "P:System.Web.HttpContext.Current"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "HttpContext.Current.ApplyChallenge();",
+            "protectedSnippet": "P:System.Web.HttpContext.Current",
+            "label": "P:System.Web.HttpContext.Current",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "5b749119-cdf6-4aed-9441-8aaa0ca62473",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "app.EndRequest \u002B= (object sender, EventArgs e) =\u003E\r\n      {\r\n        HttpContext.Current.ApplyChallenge();\r\n      };",
+              "protected": "E:System.Web.HttpApplication.EndRequest"
+            },
+            "kind": "File",
+            "path": "Windows\\MixedAuthExtensions.cs",
+            "snippet": "app.EndRequest \u002B= (object sender, EventArgs e) =\u003E\r\n      {\r\n        HttpContext.Current.ApplyChallenge();\r\n      };",
+            "protectedSnippet": "E:System.Web.HttpApplication.EndRequest",
+            "label": "E:System.Web.HttpApplication.EndRequest",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 37,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "76ef996d-a0bf-4aa2-bd55-e190b43a7719",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "T:System.Web.Routing.RouteTable"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "T:System.Web.Routing.RouteTable",
+            "label": "T:System.Web.Routing.RouteTable",
+            "line": 21,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8fe14cfe-5236-4e1d-afbe-70413bae9234",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "T:System.Web.Routing.RouteCollection"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "T:System.Web.Routing.RouteCollection",
+            "label": "T:System.Web.Routing.RouteCollection",
+            "line": 21,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "9fac10c4-b071-4767-a8c1-6e37f86b5b6c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "P:System.Web.Routing.RouteTable.Routes"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "P:System.Web.Routing.RouteTable.Routes",
+            "label": "P:System.Web.Routing.RouteTable.Routes",
+            "line": 21,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "a31b328f-98a3-4821-bbd7-b913f856838c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public MvcApplication()\r\n    {\r\n      this.RegisterWindowsAuthentication();\r\n    }",
+              "protected": "M:System.Web.HttpApplication.#ctor"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "public MvcApplication()\r\n    {\r\n      this.RegisterWindowsAuthentication();\r\n    }",
+            "protectedSnippet": "M:System.Web.HttpApplication.#ctor",
+            "label": "M:System.Web.HttpApplication.#ctor",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 12,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "356ff9db-4339-4f15-858e-9b336fff5b42",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public MvcApplication()\r\n    {\r\n      this.RegisterWindowsAuthentication();\r\n    }",
+              "protected": "M:System.Web.HttpApplication.#ctor"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "public MvcApplication()\r\n    {\r\n      this.RegisterWindowsAuthentication();\r\n    }",
+            "protectedSnippet": "M:System.Web.HttpApplication.#ctor",
+            "label": "M:System.Web.HttpApplication.#ctor",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 12,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "08ba762f-3153-4f64-bd4c-01a07ab16e4c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpApplication",
+              "protected": "T:System.Web.HttpApplication"
+            },
+            "kind": "File",
+            "path": "Global.asax.cs",
+            "snippet": "HttpApplication",
+            "protectedSnippet": "T:System.Web.HttpApplication",
+            "label": "T:System.Web.HttpApplication",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 10,
+            "column": 43
+          }
+        },
+        {
+          "incidentId": "98d58f35-0432-4182-b577-fc0c71b48bfb",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "MixedAuth.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void RegisterRoutes(RouteCollection routes)",
+              "protected": "T:System.Web.Routing.RouteCollection"
+            },
+            "kind": "File",
+            "path": "App_Start\\RouteConfig.cs",
+            "snippet": "public static void RegisterRoutes(RouteCollection routes)",
+            "protectedSnippet": "T:System.Web.Routing.RouteCollection",
+            "label": "T:System.Web.Routing.RouteCollection",
+            "line": 11,
+            "column": 4
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "SystemWeb",
+          "incidents": [
+            "98d58f35-0432-4182-b577-fc0c71b48bfb",
+            "08ba762f-3153-4f64-bd4c-01a07ab16e4c",
+            "356ff9db-4339-4f15-858e-9b336fff5b42",
+            "a31b328f-98a3-4821-bbd7-b913f856838c",
+            "9fac10c4-b071-4767-a8c1-6e37f86b5b6c",
+            "8fe14cfe-5236-4e1d-afbe-70413bae9234",
+            "76ef996d-a0bf-4aa2-bd55-e190b43a7719",
+            "5b749119-cdf6-4aed-9441-8aaa0ca62473",
+            "1662fb42-056b-4db6-8609-29003a9bacec",
+            "b833a6b7-7adb-493e-8205-9dad743f00be",
+            "0e276fce-cd44-4bf8-b72e-f82129c46b96",
+            "b856cbc7-8953-4df3-a1c5-eb2d8d22ed7d",
+            "2a2152db-0a49-48ca-b077-a88036bc052d",
+            "48d8b76e-bf52-488d-ad7e-7b791a9b30a9",
+            "2c318eb3-fc85-4d99-9cca-23913f0d126c",
+            "a3f5a9f3-3f04-4dd7-86d4-0af389eabbd7",
+            "1c3a0ebb-b845-4ab8-af4a-91a42a2cdb18",
+            "041274e4-6ffc-40d5-b06f-1cd1bddbc3ab",
+            "1ee3d038-0e01-481c-a6e0-4f6d730a7251",
+            "5f9b2120-f0f1-455a-a9a4-923df8f0ab1b",
+            "4be761c2-25a7-42cd-adde-14ed32e9c763",
+            "d4e4ab41-a49e-43a9-b788-181c0e47f51c",
+            "54a1496f-0b49-4f66-8398-d8fadb4ebb08",
+            "beb36e4e-d12b-4711-a8b6-adc953ab97a6",
+            "0005adb9-8497-4cd2-9c64-4796984c413a",
+            "d56c0df0-fb1e-497a-b533-c65dd9e35d25",
+            "cc70dd9b-1afd-415c-83be-cbfb59be1e38",
+            "373ce305-7561-4d32-aa2b-4214264d0e2b",
+            "a9421676-58ab-4000-afcd-02d34fb77991",
+            "6f6685e0-8c0b-4a29-a163-f05771198ab8",
+            "4c66de8a-a781-4588-bf5d-5268ba7f1960",
+            "690b85bd-93dd-4b84-99e3-a0874beaac82",
+            "50c6c98c-e30b-4de0-a8b7-1df1d4b4f7a4",
+            "10c476ac-e5b2-4004-899f-3601ec8546ae",
+            "f77ba2dc-9191-485a-b956-55871241da20",
+            "63987498-ef56-4a37-8ff9-1623e28a734c",
+            "763afe84-4e4b-44ea-acc1-f1fdbfe05ea9",
+            "01f7f209-82bd-4e3b-8138-a9533e154220",
+            "67e5d1a6-43da-4976-bb46-526814fcfb9f",
+            "91d73f83-5fc9-4ade-89ed-799e1bdb5527",
+            "746f9340-5869-46a1-acde-1e7d57a031f1",
+            "4847ffbe-8975-4713-a154-17f00b13e690",
+            "e4789e36-36be-4aee-b329-927561e9a981",
+            "3d97afdc-5275-4064-b87e-ef466d055c4a",
+            "1d070141-ac87-4673-93d2-6229a7afef00",
+            "275de1f4-6b49-48f3-86bd-8cc4fa554d64",
+            "43052359-98eb-4f8e-ab15-7dd4214777a2",
+            "7cb2d732-bc00-4e5a-b280-5dee79cd3885",
+            "19d4d1b5-7bb2-4ca3-a07c-d34408d58fbe",
+            "bfd7b999-957f-4b11-9547-65a3d1d48467",
+            "366bf71d-c206-4a2c-8cf2-6039047f1c38",
+            "c82f040c-4145-45b1-a350-c1965886269d",
+            "9d209c2c-61b5-4b6a-b6b4-c66c04f7fddb",
+            "fe4cc1fd-951b-4426-aeaf-8fa4175b07b9",
+            "e5554f06-7a18-413e-a066-82cdeea98212",
+            "09d9de13-7a4e-421f-b0b4-7a27fb4b23e9",
+            "c00ded91-dcab-48ac-88ff-d226819378df",
+            "3328de0a-222b-4088-b169-132c876b45f2",
+            "05787212-125d-4c12-9f0b-bfd67b6e7d76",
+            "6d2da309-602d-411b-9f93-4dc6edfd4d2c",
+            "f65a0881-0ea6-4f7b-b169-a948084aa0d4",
+            "8e663616-8f11-46fb-8162-b62598564d41",
+            "4883403e-c793-4743-b40f-b7b2af4f6d14",
+            "aa3b4ccd-ea00-44cf-9600-1b53e9424a2f",
+            "2a3e0191-81ea-4329-9c9d-6de677477e7b",
+            "a0c5395a-312c-4b02-9f50-d7119a48a041",
+            "69a852ec-3491-4e53-89ea-8e3c6c63866e",
+            "3e189bdd-ff33-43af-b23e-38d1753bfa49",
+            "080c523d-f6cc-4434-b81d-1e8357aa6120",
+            "12cfdabf-9be0-4190-8dfc-15ade55320fb",
+            "de0db678-ad8d-4076-b171-591fc91ab451",
+            "d5c4bc35-d5ca-460f-9c5e-4110072c2f75",
+            "b7fa6621-b644-416e-8153-cd9083b9e0f8",
+            "3d04db70-6fa2-4506-8cd3-e1bd19674243",
+            "e50deeb0-36e3-4659-af59-c598ef336fb9",
+            "5ce15c4b-b7a5-45bc-a7e5-bc10e1fce3d5",
+            "09e4ccd6-2d31-45ba-9a1a-94357df1313a",
+            "f8b74bd7-8fd3-4e1a-babf-6c5e2d63660c",
+            "634b9bb7-0228-460f-a3eb-c773e86f3865",
+            "d5035a27-61de-46b3-9b7c-b305680cfef1",
+            "0de24d30-b1d7-436c-9d7d-78b4b1cf4e39",
+            "bbf228e5-47f2-4000-b44b-5a554fa83762",
+            "1a90f960-38d7-4dd4-9f97-8fc69cfa97ea",
+            "b6826570-ba3f-4da3-87c8-cd1eae96cb11",
+            "53d9d224-9364-406d-a09f-f5f9d921206a",
+            "6374672d-b6c0-46bc-9d9c-2fd9c1b6134f",
+            "27a33597-ad04-4f92-a768-b7f9e655a0d1",
+            "7808d475-9a8a-4185-b113-ae41077ef67e",
+            "4703e5f1-4b36-4af6-a3b5-9c86b676fa50",
+            "9c73fd10-5f4e-4fc7-a6e3-7ea8ac56aff9",
+            "8bf6389b-ae20-48c6-8a9b-256aa9f3fbcf",
+            "6592ee07-b9c4-4362-8bac-5fcabb33973f",
+            "021865ce-071c-4596-96dd-3b63479a287f",
+            "a1d6c677-aa09-4eff-986d-0f369c0e3b11",
+            "880b5df4-fe08-4838-96f6-5e2d4b4dbfd5",
+            "28c90d9a-e9ef-4938-92c5-fa8caad7418f",
+            "e9af2c24-b6b8-43f4-9895-e3c3ea418f04",
+            "2f78cbae-baf3-4de4-8b98-356ba33e21e4",
+            "5379c5b0-aec2-44b1-9a29-e8ac815204b4",
+            "cfe326bc-1627-4a79-995b-c374bc8becf3",
+            "18f98149-a4bb-4ad0-90e7-21be78f86f72",
+            "f1d30057-3747-4df8-95ad-3917b098538a",
+            "32d90c98-1d9d-4227-883c-16bcd86eefae",
+            "9335cf73-0818-427d-896c-9488dc3f8bf8",
+            "f6b9870f-e22f-417e-88ec-092ec449dfb2",
+            "907a85b2-9c1a-4990-8c29-bc38000cd5d7",
+            "8b0cc127-af99-443e-ab5e-e28b8e13d612",
+            "c15684bd-31ae-470f-b71d-bb39151cd9ff",
+            "3adbee1f-07a1-457f-b99f-5b1fac4488d8",
+            "e78201b2-3a67-4b83-9b41-4b9c0053257b",
+            "356f531e-f78f-47dc-882c-9a419b9fbeff"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "isFeature": false,
+      "description": "NuGet package contains security vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known security vulnerabilities.",
+      "label": "NuGet package contains security vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.0001": {
+      "id": "Feature.0001",
+      "isFeature": true,
+      "description": "System.Web.Optimization bundling and minification is not supported in .NET Core and should be replaced with actual html tags pointing to content files.",
+      "label": "System.Web.Optimization bundling and minification is not supported in .NET Core and should be replaced with actual html tags pointing to content files",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.1000": {
+      "id": "Feature.1000",
+      "isFeature": true,
+      "description": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs.",
+      "label": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.0002": {
+      "id": "Feature.0002",
+      "isFeature": true,
+      "description": "Routes registration via RouteCollection is not supported in .NET Core and needs to be converted to the route mappings on the application object.",
+      "label": "Routes registration via RouteCollection is not supported in .NET Core and needs to be converted to the route mappings on the application object",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "API is source incompatible for selected .NET version: requires code changes to compile successfully when targeting a new version, such as removing obsolete APIs or changing method signatures.",
+      "label": "Source incompatible for selected .NET version",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "SystemWeb": {
+      "id": "SystemWeb",
+      "isFeature": false,
+      "description": "Legacy ASP.NET Framework APIs for web applications (System.Web.*) that don\u0027t exist in ASP.NET Core due to architectural differences. ASP.NET Core represents a complete redesign of the web framework. Migrate to ASP.NET Core equivalents or consider System.Web.Adapters package for compatibility.",
+      "label": "ASP.NET Framework (System.Web)",
+      "severity": "Mandatory",
+      "effort": 4,
+      "links": [
+        {
+          "title": "Migrate from ASP.NET to ASP.NET Core",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341905",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

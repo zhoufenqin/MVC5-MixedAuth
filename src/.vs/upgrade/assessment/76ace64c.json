@@ -1,0 +1,334 @@
+{
+  "reportConfigHash": "76ace64c",
+  "createdAtUtc": "2026-06-17T10:46:11.7925677Z",
+  "entries": [
+    {
+      "packageName": "Antlr",
+      "packageVersion": "3.4.1.9004",
+      "insightsName": "Antlr",
+      "insightsCurrentVersion": "3.4.1.9004",
+      "insightsNewVersion": "",
+      "insightsDescription": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "bootstrap",
+      "packageVersion": "3.0.0",
+      "insightsName": "bootstrap",
+      "insightsCurrentVersion": "3.0.0",
+      "insightsNewVersion": "5.3.8",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "EntityFramework",
+      "packageVersion": "6.0.0",
+      "insightsName": "EntityFramework",
+      "insightsCurrentVersion": "6.0.0",
+      "insightsNewVersion": "6.5.2",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery",
+      "packageVersion": "1.10.2",
+      "insightsName": "jQuery",
+      "insightsCurrentVersion": "1.10.2",
+      "insightsNewVersion": "3.7.1",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery.Validation",
+      "packageVersion": "1.11.1",
+      "insightsName": "jQuery.Validation",
+      "insightsCurrentVersion": "1.11.1",
+      "insightsNewVersion": "1.21.0",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Identity.Core",
+      "packageVersion": "1.0.0",
+      "insightsName": "Microsoft.AspNet.Identity.Core",
+      "insightsCurrentVersion": "1.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Identity.EntityFramework",
+      "packageVersion": "1.0.0",
+      "insightsName": "Microsoft.AspNet.Identity.EntityFramework",
+      "insightsCurrentVersion": "1.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Identity.Owin",
+      "packageVersion": "1.0.0",
+      "insightsName": "Microsoft.AspNet.Identity.Owin",
+      "insightsCurrentVersion": "1.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Mvc",
+      "packageVersion": "5.0.0",
+      "insightsName": "Microsoft.AspNet.Mvc",
+      "insightsCurrentVersion": "5.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package functionality is included with framework reference",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Razor",
+      "packageVersion": "3.0.0",
+      "insightsName": "Microsoft.AspNet.Razor",
+      "insightsCurrentVersion": "3.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package functionality is included with framework reference",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Web.Optimization",
+      "packageVersion": "1.1.1",
+      "insightsName": "Microsoft.AspNet.Web.Optimization",
+      "insightsCurrentVersion": "1.1.1",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.WebPages",
+      "packageVersion": "3.0.0",
+      "insightsName": "Microsoft.AspNet.WebPages",
+      "insightsCurrentVersion": "3.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package functionality is included with framework reference",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.jQuery.Unobtrusive.Validation",
+      "packageVersion": "3.0.0",
+      "insightsName": "Microsoft.jQuery.Unobtrusive.Validation",
+      "insightsCurrentVersion": "3.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Microsoft.Owin",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Host.SystemWeb",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Host.SystemWeb",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.Cookies",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.Cookies",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "Replace with Microsoft.AspNetCore.Authentication.Cookies: Use AddAuthentication().AddCookie() in Startup; adjust cookie options",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.Facebook",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.Facebook",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.Google",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.Google",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.MicrosoftAccount",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.MicrosoftAccount",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.OAuth",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.OAuth",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "Replace with Microsoft.AspNetCore.Authentication.JwtBearer: Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Owin.Security.Twitter",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.Owin.Security.Twitter",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Web.Infrastructure",
+      "packageVersion": "1.0.0.0",
+      "insightsName": "Microsoft.Web.Infrastructure",
+      "insightsCurrentVersion": "1.0.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package functionality is included with framework reference",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Modernizr",
+      "packageVersion": "2.6.2",
+      "insightsName": "Modernizr",
+      "insightsCurrentVersion": "2.6.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Newtonsoft.Json",
+      "packageVersion": "5.0.6",
+      "insightsName": "Newtonsoft.Json",
+      "insightsCurrentVersion": "5.0.6",
+      "insightsNewVersion": "13.0.4",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Owin",
+      "packageVersion": "1.0",
+      "insightsName": "Owin",
+      "insightsCurrentVersion": "1.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "MixedAuth.csproj"
+      ]
+    },
+    {
+      "packageName": "Respond",
+      "packageVersion": "1.2.0",
+      "insightsName": "Respond",
+      "insightsCurrentVersion": "1.2.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "WebGrease",
+      "packageVersion": "1.5.2",
+      "insightsName": "WebGrease",
+      "insightsCurrentVersion": "1.5.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    }
+  ]
+}
